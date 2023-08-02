@@ -18,6 +18,9 @@ function videoLoad() {
 window.onload = function() {
   videoLoad();
 };
+window.onforeunload = function() {
+  videoLoad();
+};
 
 function draw() {
   video.loadPixels();
